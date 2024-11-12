@@ -1,0 +1,51 @@
+#contenedor {
+    display: flex;
+    border: 5px dotted red;
+    padding: 20px;
+}
+.elementos {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border: 5px solid rgb(7, 6, 7);
+    border-radius: 20%;
+    padding: 10px;
+    text-align: center;
+}
+#e1{
+    background-color: blue;
+}
+#e2{
+    background-color: blueviolet;
+    border-radius: 100%;
+}
+#e3{
+    background-color: brown;
+}
+nav{
+    background-color: rgb(165, 91, 42);
+    padding: 15px;
+
+}
+
+nav ul{
+    display: flex; /* pone lo cuadros en horizontal */
+
+    list-style: none; /*quitar el punto de la lista*/
+
+}
+
+nav ul li{
+    margin: auto;
+    text-transform: uppercase;
+    background-color: rgb(58, 110, 110);
+    color:rgb(35, 22, 225);
+    padding: 8px;
+
+}
+nav ul li ul{
+
+}
+.submenu{
+    
+}
