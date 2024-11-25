@@ -74,5 +74,6 @@ function modoDia(){
 function saludarUsuario(){
     let inputUsuario = document.querySelector("#nombre-usuario").value
     alert("hola"+inputUsuario);
+    if (inputUsuario == "yasmi")
 
 }
