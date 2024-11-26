@@ -75,5 +75,23 @@ function saludarUsuario(){
     let inputUsuario = document.querySelector("#nombre-usuario").value
     alert("hola"+inputUsuario);
     if (inputUsuario == "yasmi")
+    if(generoFemenino.checked){
+        alert (bienvenid "inputUsuario");
+    }
+
+    mostrarUsuario(inputUsuario); 
+
+
+}
+function mostrarUsuario(inputUsuario){
+    const contenedorUsuarios = document.querySelector(#contenido)
+    const elementoUsuario = document. createElement("li")
+
+    //ejemplos de usar texto + datos js
+    //elementoUsuario.innerHTML = "hola" "+inputUsuario";
+    //elementoUsuario.innerHTML = hola ${inputUsuario}
+
+    elementoUsuario.innerHTML = inputUsuario;
+    contenedorUsuarios.appendChild(elementoUsuario);
 
 }
