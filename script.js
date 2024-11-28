@@ -76,7 +76,7 @@ function saludarUsuario(){
     alert("hola"+inputUsuario);
     if (inputUsuario == "yasmi")
     if(generoFemenino.checked){
-        alert (bienvenid "inputUsuario");
+       alert(bienvenido "inputUsuario");
     }
 
     mostrarUsuario(inputUsuario); 
